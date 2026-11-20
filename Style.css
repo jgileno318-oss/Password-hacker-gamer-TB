@@ -1,0 +1,194 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  color: white;
+}
+
+body{
+  background-image: url(Imgs/file_00000000783c820ea779b144333f2518.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
+.container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.personagem{
+  height: 200px;
+  width: 300px;
+  transform: translateY(40px);
+  z-index: 1;
+}
+
+h1{
+  font-size: 50px;
+  font-family: "Orbitron", bahnschrift;
+  font-weight: 900;
+  color: #00E5FF;
+  z-index: 2;
+}
+
+h2{
+  font-size: 20px;
+  font-family: "Orbitron", bahnschrift;
+  font-weight: 300;
+  letter-spacing: 4px;
+  margin-bottom: 20px;
+  color: #00B8D4;
+}
+
+.container-2{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.f-do-card-verificar-senha{
+  background-color: #0B1220;
+  border: 2px solid #00E5FF;
+  padding: 20px 30px;
+  border-radius: 15px;
+  height: 310px;
+  width: 530px;
+}
+
+.container-do-card-verificar-senha{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.cadeado{
+  height: 100px;
+  width: 80px;
+  margin-bottom: 20px;
+  margin-top: 10px;
+}
+
+.input-box{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.input-box i{
+  color: #00E5FF;
+  position: absolute;
+  z-index: 2;
+  padding-right: 400px;
+  font-size: 20px;
+}
+
+.input-box input{
+  position: relative;
+  z-index: 1;
+  width: 460px;
+  padding: 14px 19px 14px 61px;
+  border-radius: 10px;
+  border: 2px solid #00E5FF;
+  outline: none;
+  background-color: #01080E;
+  color: #E2E8F0;
+  cursor: text;
+  font-size: 20px;
+}
+
+.input-box input:placeholder{
+  color: #64748b;
+}
+
+.msg{
+  position: absolute;
+  top: 664px;
+  z-index: 5;
+  font-size: 12px;
+}
+
+button{
+  background-color: #00E5FF;
+  color: black;
+  padding: 12px 20px;
+  border: none;
+  outline: none;
+  width: 460px;
+  border-radius: 10px;
+  font-weight: 800;
+  cursor: pointer;
+  font-size: 25px;
+}
+
+.card-dicas{
+  background-color: #00070D;
+  border: 2px solid #00E5FF;
+  padding: 15px 25px;
+  border-radius: 15px;
+  height: 310px;
+  width: 350px;
+}
+
+.p1{
+  display: flex;
+  justify-content: start;
+  align-items: end;
+  gap: 20px;
+  margin-bottom: 15px;
+}
+
+.p1 i{
+  font-size: 40px;
+  color: #00E5FF;
+}
+
+.lampada{
+  height: 42px;
+  width: 38px;
+}
+
+.p1 h3{
+  color: #00E5FF;
+  font-size: 30px;
+  font-family: "Orbitron", bahnschrift;
+}
+
+.card-dicas hr{
+  border: 1px solid #00E5FF;
+  margin-bottom: 20px;
+}
+
+.p2 {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+
+.p2 ul{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.p2 ul li{
+  list-style: none;
+  font-size: 20px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.p2 ul li span{
+  color: #00E5FF;
+  font-size: 40px;
+}

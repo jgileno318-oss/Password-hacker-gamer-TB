@@ -1,0 +1,38 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background-image: url(Imgs/file_00000000783c820ea779b144333f2518.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100vh;
+}
+
+main{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.img1{
+  height: 450px;
+  width: 950px;
+}
+
+button{
+  background-color: transparent;
+  outline: none;
+  border: none;
+}
+
+.img2{
+  height: 150px;
+  width: 600px;
+  cursor: pointer;
+}
